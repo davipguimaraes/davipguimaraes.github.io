@@ -75,16 +75,22 @@ ol {
     top: 0;
 }
 
+.informacoes ul {
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+    border-top: solid 1px #333;
+}
+
 .informacoes li {
     margin: 5px 0;
 }
 
 .informacoes li a {
-    color: #bc2431;
+    color: #f34;
 }
 
 .informacoes li a:hover {
-    color: #f34;
+    color: #bc2431;
 }
 
 .conhecimentos {
