@@ -1,0 +1,99 @@
+/* Meu css */
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+header{
+	margin-bottom: 30px;
+}
+section{
+	margin-bottom: 30px;
+	padding-top: 10px;
+}
+article{
+	margin: 20px 0;
+	padding-top: 7px;
+
+}
+a{
+	color: #f34 ;
+	transition: all 0.25s ease;
+}
+a:focus,
+a:hover,
+a:active{
+	color: #b2232f;
+	text-decoration: none;
+}
+h4{
+	font-size: 0.925em;
+}
+h5{
+	font-size: 0.825em;
+}
+
+ul, ol{
+	list-style: none;
+	padding-left: 5px;
+}
+
+.conteudo{
+	padding-left: 10px;
+}
+
+/*  */
+.foto-principal{
+	text-align: center;
+	padding: 50px 0;
+}
+.foto-principal img{
+	max-width: 250px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border: solid 3px white;
+	-webkit-box-shadow: 0px 0px 2px 2px #333;
+	-moz-box-shadow: 0px 0px 2px 2px #333;
+	box-shadow: 0px 0px 2px 2px #333;
+}
+.informacoes{
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+}
+
+.informacoes li{
+	margin: 5px 0;
+}
+
+.informacoes li a{
+	color:#7c1820;
+}
+
+.conhecimentos{
+	list-style: none;
+	padding-left: 0;
+}
+
+.conhecimentos li{
+	padding: 0.25em 0.75em;
+	border: solid 1px #333;
+	color: #333;
+	margin-top: 0.5em;
+	margin-right: 0.25em;
+	display: inline-block;
+	cursor: default;
+	transition: all 0.375s ease;
+}
+
+.conhecimentos li:hover{
+	color: #fff;
+	background: #333;
+	border-color: #fff;
+  	transform: rotate3d(0, 1,0, 0deg);
+
+	outline: solid 1px #333;
+}
